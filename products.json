@@ -1,0 +1,250 @@
+[
+    {
+        "_id": {
+            "$oid": "5ecdd1ea1e90c217912c031e"
+        },
+        "pid": "0602_1_month",
+        "appleId": "1516958666",
+        "type": "permonth",
+        "note": "备注",
+        "duration": {
+            "months": 1.0
+        },
+        "usableRange": [
+            "ios",
+            "darwin"
+        ],
+        "locals": {
+            "zh-cn": {
+                "name": "1个月",
+                "desc": "",
+                "price": 108.0,
+                "currency": "RMB",
+                "currencySymbol": "¥",
+                "tags": []
+            },
+            "en": {
+                "name": "1 Month",
+                "desc": "",
+                "price": 15.99,
+                "currency": "USD",
+                "currencySymbol": "$",
+                "tags": []
+            },
+            "ja": {
+                "name": "1ヶ月",
+                "desc": "",
+                "price": 1960.0,
+                "currency": "JPY",
+                "currencySymbol": "¥",
+                "tags": []
+            },
+            "it": {
+                "name": "1 mese",
+                "desc": "",
+                "price": 17.99,
+                "currency": "EUR",
+                "currencySymbol": "€",
+                "tags": []
+            },
+            "ru": {
+                "name": "1 месяц",
+                "desc": "",
+                "price": 1190.0,
+                "currency": "RUB",
+                "currencySymbol": "₽",
+                "tags": []
+            },
+            "de": {
+                "name": "1 Monat",
+                "desc": "",
+                "price": 17.99,
+                "currency": "EUR",
+                "currencySymbol": "€",
+                "tags": []
+            },
+            "fr": {
+                "name": "1 mois",
+                "desc": "",
+                "price": 17.99,
+                "currency": "EUR",
+                "currencySymbol": "€",
+                "tags": []
+            }
+        },
+        "index": 1,
+        "createdAt" : 1590546922,
+        "createdBy": "8160000000102"
+    },
+    {
+        "_id": {
+            "$oid": "5ece0f17978cc0c4bce9fa82"
+        },
+        "pid": "0602_monthly",
+        "appleId": "1516449077",
+        "type": "autoRenew",
+        "note": "备注",
+        "duration": {
+            "months": 1.0
+        },
+        "usableRange": [
+            "ios",
+            "darwin"
+        ],
+        "locals": {
+            "zh-cn": {
+                "name": "连续包月",
+                "desc": "",
+                "price": 98.0,
+                "currency": "RMB",
+                "currencySymbol": "¥",
+                "tags": [
+                    "免费试用3天",
+                    "立省10元"
+                ]
+            },
+            "en": {
+                "name": "Monthly",
+                "desc": "",
+                "price": 14.99,
+                "currency": "USD",
+                "currencySymbol": "$",
+                "tags": [
+                    "3 days free trial"
+                ]
+            },
+            "ja": {
+                "name": "月間",
+                "desc": "",
+                "price": 1450.0,
+                "currency": "JPY",
+                "currencySymbol": "¥",
+                "tags": [
+                    "3日間無料でお試し"
+                ]
+            },
+            "it": {
+                "name": "Mensile",
+                "desc": "",
+                "price": 14.49,
+                "currency": "EUR",
+                "currencySymbol": "€",
+                "tags": [
+                    "Prova gratuita di 3 giorni"
+                ]
+            },
+            "ru": {
+                "name": "Ежемесячно",
+                "desc": "",
+                "price": 1050.0,
+                "currency": "RUB",
+                "currencySymbol": "₽",
+                "tags": [
+                    "Попробуйте бесплатно 3 дней"
+                ]
+            },
+            "de": {
+                "name": "Monatlich",
+                "desc": "",
+                "price": 14.49,
+                "currency": "EUR",
+                "currencySymbol": "€",
+                "tags": [
+                    "Kostenlos für 3-Tage"
+                ]
+            },
+            "fr": {
+                "name": "Mensuel",
+                "desc": "",
+                "price": 14.49,
+                "currency": "EUR",
+                "currencySymbol": "€",
+                "tags": [
+                    "Essai gratuit de 3 jours"
+                ]
+            }
+        },
+        "index": 2,
+        "createdAt" : 1590546922,
+        "createdBy": "8160000000102"
+    }
+    /*
+    {
+        "_id": {
+            "$oid": "5ee08f0f03864ef2e8cdfcd9"
+        },
+        "pid": "0604_1_month_test",
+        "appleId": "1516996095",
+        "type": "permonth",
+        "note": "备注",
+        "duration": {
+            "months": 1.0
+        },
+        "usableRange": [
+            "ios",
+            "darwin"
+        ],
+        "locals": {
+            "zh-cn": {
+                "name": "1个月",
+                "desc": "¥6",
+                "price": 0.1,
+                "currency": "RMB",
+                "currencySymbol": "¥",
+                "tags": []
+            },
+            "en": {
+                "name": "1 Month",
+                "desc": "",
+                "price": 15.99,
+                "currency": "USD",
+                "currencySymbol": "$",
+                "tags": []
+            }
+        },
+        "index": 1,
+        "createdAt" : 1590546922,
+        "createdBy": "8160000000102"
+    },
+    {
+        "_id": {
+            "$oid": "5ee08f2203864ef2e8cdfcda"
+        },
+        "pid": "0604_monthly_test",
+        "appleId": "1516997348",
+        "type": "autoRenew",
+        "note": "备注",
+        "duration": {
+            "months": 1.0
+        },
+        "usableRange": [
+            "ios",
+            "darwin"
+        ],
+        "locals": {
+            "zh-cn": {
+                "name": "连续包月",
+                "desc": "¥100",
+                "price": 0.1,
+                "currency": "RMB",
+                "currencySymbol": "¥",
+                "tags": [
+                    "立省10元"
+                ]
+            },
+            "en": {
+                "name": "Monthly Subscription",
+                "desc": "",
+                "price": 14.99,
+                "currency": "USD",
+                "currencySymbol": "$",
+                "tags": []
+            }
+        },
+        
+        "index": 2,
+        "createdAt" : 1590546922,
+        "createdBy": "8160000000102"
+    }
+    */
+]
